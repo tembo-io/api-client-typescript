@@ -3,7 +3,7 @@ import type {
 	Middleware,
 	QuerySerializer,
 	QuerySerializerOptions,
-} from "./utils.ts";
+} from "./utils.js";
 
 type OmitKeys<T, K> = Pick<T, Exclude<keyof T, K>>;
 
