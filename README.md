@@ -16,7 +16,7 @@ npm i @tembo-io/api-client
 ```
 
 ```ts
-import client from "@tembo-io/api-client";
+import { createDefaultApiClient } from "@tembo-io/api-client";
 
 const client = createDefaultApiClient({
 	apiKey: process.env.TEMPO_API_KEY,

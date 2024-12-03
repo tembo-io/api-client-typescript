@@ -77,7 +77,6 @@ export const client = createClient(createConfig());
 
 /**
  * Attributes for all apps
- * Attributes for all apps
  *
  */
 export const getAllApps = <ThrowOnError extends boolean = false>(
@@ -94,7 +93,6 @@ export const getAllApps = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Get the attributes of a single App
  * Get the attributes of a single App
  *
  */
@@ -113,7 +111,6 @@ export const getApp = <ThrowOnError extends boolean = false>(
 
 /**
  * Ask a question to Tembo Docs
- * Ask a question to Tembo Docs
  *
  */
 export const ask = <ThrowOnError extends boolean = false>(
@@ -126,7 +123,6 @@ export const ask = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Get the json-schema for an instance
  * Get the json-schema for an instance
  *
  */
@@ -144,7 +140,6 @@ export const getSchema = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Get all actions
  * Get all actions
  */
 export const getActions = <ThrowOnError extends boolean = false>(
@@ -175,7 +170,6 @@ export const getAllDataplanes = <ThrowOnError extends boolean = false>(
 
 /**
  * Get all Tembo instances in an organization
- * Get all Tembo instances in an organization
  *
  */
 export const getAll = <ThrowOnError extends boolean = false>(
@@ -192,7 +186,6 @@ export const getAll = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Create a new Tembo instance
  * Create a new Tembo instance
  *
  */
@@ -211,7 +204,6 @@ export const createInstance = <ThrowOnError extends boolean = false>(
 
 /**
  * Get an existing Tembo instance
- * Get an existing Tembo instance
  *
  */
 export const getInstance = <ThrowOnError extends boolean = false>(
@@ -228,7 +220,6 @@ export const getInstance = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Lifecycle events for a Tembo instance
  * Lifecycle events for a Tembo instance
  *
  * Currently only supports restart
@@ -248,7 +239,6 @@ export const instanceEvent = <ThrowOnError extends boolean = false>(
 
 /**
  * Delete an existing Tembo instance
- * Delete an existing Tembo instance
  *
  */
 export const deleteInstance = <ThrowOnError extends boolean = false>(
@@ -265,7 +255,6 @@ export const deleteInstance = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Update attributes on an existing Tembo instance
  * Update attributes on an existing Tembo instance
  *
  */
@@ -284,7 +273,6 @@ export const patchInstance = <ThrowOnError extends boolean = false>(
 
 /**
  * Get historical information for a given instance
- * Get historical information for a given instance
  */
 export const getInstanceHistory = <ThrowOnError extends boolean = false>(
 	options: OptionsLegacyParser<GetInstanceHistoryData, ThrowOnError>,
@@ -300,7 +288,6 @@ export const getInstanceHistory = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Generate text for Tembo.toml
  * Generate text for Tembo.toml
  *
  */
@@ -319,7 +306,6 @@ export const getInstanceToml = <ThrowOnError extends boolean = false>(
 
 /**
  * Get all policies
- * Get all policies
  */
 export const getPolicies = <ThrowOnError extends boolean = false>(
 	options: OptionsLegacyParser<GetPoliciesData, ThrowOnError>,
@@ -335,7 +321,6 @@ export const getPolicies = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Create or update a policy
  * Create or update a policy
  */
 export const setPolicy = <ThrowOnError extends boolean = false>(
@@ -353,7 +338,6 @@ export const setPolicy = <ThrowOnError extends boolean = false>(
 
 /**
  * Delete a policy
- * Delete a policy
  */
 export const deletePolicy = <ThrowOnError extends boolean = false>(
 	options: OptionsLegacyParser<DeletePolicyData, ThrowOnError>,
@@ -369,7 +353,6 @@ export const deletePolicy = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Restore a Tembo instance
  * Restore a Tembo instance
  *
  */
@@ -388,7 +371,6 @@ export const restoreInstance = <ThrowOnError extends boolean = false>(
 
 /**
  * Get all roles
- * Get all roles
  */
 export const getRoles = <ThrowOnError extends boolean = false>(
 	options: OptionsLegacyParser<GetRolesData, ThrowOnError>,
@@ -404,7 +386,6 @@ export const getRoles = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Search Tembo Docs Database
  * Search Tembo Docs Database
  *
  */
@@ -423,7 +404,6 @@ export const search = <ThrowOnError extends boolean = false>(
 
 /**
  * Attributes for all stacks
- * Attributes for all stacks
  *
  */
 export const getAllEntities = <ThrowOnError extends boolean = false>(
@@ -441,7 +421,6 @@ export const getAllEntities = <ThrowOnError extends boolean = false>(
 
 /**
  * Get the attributes of a single stack
- * Get the attributes of a single stack
  *
  */
 export const getEntity = <ThrowOnError extends boolean = false>(
@@ -458,7 +437,6 @@ export const getEntity = <ThrowOnError extends boolean = false>(
 };
 
 /**
- * Invalidate the token included in the Authorization header
  * Invalidate the token included in the Authorization header
  *
  * May take a up to a minute for subsequent requests to be rejected

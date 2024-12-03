@@ -24,7 +24,6 @@
 		"format": "prettier .",
 		"lint": "eslint . --max-warnings 0",
 		"openapi-ts": "openapi-ts",
-		"prepare": "husky",
 		"tsc": "tsc"
 	},
 	"lint-staged": {
@@ -40,7 +39,6 @@
 		"@types/node": "^22.10.1",
 		"eslint": "^9.16.0",
 		"eslint-plugin-n": "^17.14.0",
-		"husky": "^9.1.7",
 		"lint-staged": "^15.2.10",
 		"prettier": "^3.4.1",
 		"prettier-plugin-curly": "^0.3.1",
