@@ -1,0 +1,59 @@
+{
+	"name": "@tembo-io/api-client",
+	"version": "0.0.0",
+	"description": "The Typescript client for connecting to Tembo Cloud's platform API",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tembo/api-client-typescript"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Darren Baldwin",
+		"email": "darren@tembo.io"
+	},
+	"type": "module",
+	"main": "./lib/index.js",
+	"files": [
+		"lib/",
+		"package.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsup",
+		"format": "prettier .",
+		"lint": "eslint . --max-warnings 0",
+		"openapi-ts": "openapi-ts",
+		"prepare": "husky",
+		"tsc": "tsc"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	},
+	"dependencies": {
+		"@hey-api/client-fetch": "^0.5.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.16.0",
+		"@hey-api/openapi-ts": "^0.58.0",
+		"@types/eslint__js": "^8.42.3",
+		"@types/node": "^22.10.1",
+		"eslint": "^9.16.0",
+		"eslint-plugin-n": "^17.14.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.10",
+		"prettier": "^3.4.1",
+		"prettier-plugin-curly": "^0.3.1",
+		"prettier-plugin-packagejson": "^2.5.6",
+		"prettier-plugin-sh": "^0.14.0",
+		"tsup": "^8.3.5",
+		"typescript": "^5.7.2",
+		"typescript-eslint": "^8.17.0"
+	},
+	"engines": {
+		"node": ">=18.3.0"
+	},
+	"publishConfig": {
+		"provenance": true
+	}
+}
