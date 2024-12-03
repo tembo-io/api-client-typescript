@@ -4,7 +4,7 @@ import {
 	createClient,
 	createConfig,
 	type OptionsLegacyParser,
-} from "./client/index.ts";
+} from "./client/index.js";
 import type {
 	GetAllAppsError,
 	GetAllAppsResponse,
