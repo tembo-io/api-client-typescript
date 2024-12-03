@@ -1,4 +1,4 @@
-import type { Config } from "./types";
+import type { Config } from "./types.ts";
 
 interface PathSerializer {
 	path: Record<string, unknown>;
