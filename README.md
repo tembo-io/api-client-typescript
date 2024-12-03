@@ -1,6 +1,6 @@
-<h1 align="center">Tembo Client Typescript</h1>
+<h1 align="center">@tembo-io/api-client</h1>
 
-<p align="center">Typescript client for connecting to Tembo Cloud's platform API</p>
+<p align="center">A Typescript client for connecting to Tembo Cloud's platform API</p>
 
 <p align="center">
 	<a href="https://github.com/tembo/tembo-client-typescript/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg"></a>

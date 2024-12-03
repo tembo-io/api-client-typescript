@@ -171,11 +171,11 @@ export type {
 	OptionsLegacyParser,
 	RequestOptionsBase,
 	RequestResult,
-} from "./types.ts";
+} from "./types.js";
 export {
 	createConfig,
 	formDataBodySerializer,
 	jsonBodySerializer,
 	type QuerySerializerOptions,
 	urlSearchParamsBodySerializer,
-} from "./utils.ts";
+} from "./utils.js";
