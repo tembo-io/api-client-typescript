@@ -1,6 +1,6 @@
 {
 	"name": "@tembo-io/api-client",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "The Typescript client for connecting to Tembo Cloud's platform API",
 	"repository": {
 		"type": "git",
