@@ -1,6 +1,6 @@
 import { type OptionsLegacyParser } from "@hey-api/client-fetch";
 import * as sdk from "./sdk.gen.js";
-export * from "./types.gen.ts";
+export * from "./types.gen.js";
 export default sdk;
 
 /**
