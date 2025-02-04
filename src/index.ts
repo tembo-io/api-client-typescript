@@ -1,7 +1,5 @@
 import { type OptionsLegacyParser } from "@hey-api/client-fetch";
 import * as sdk from "./sdk.gen.js";
-export * from "./types.gen.js";
-export default sdk;
 
 /**
  * Initializes a default client using the proper authorization headers
@@ -35,3 +33,6 @@ export function createDefaultApiClient(
 		...sdk,
 	};
 }
+
+export * from "./types.gen.ts";
+export default sdk;
