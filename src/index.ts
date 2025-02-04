@@ -34,3 +34,5 @@ export function createDefaultApiClient(
 		...sdk,
 	};
 }
+
+export * from "./types.gen.js";
